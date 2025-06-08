@@ -1,0 +1,110 @@
+/* Modernização e responsividade */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #e0e7ff 0%, #f2f2f2 100%);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 32px 24px;
+  max-width: 400px;
+  width: 90%;
+  margin: 24px auto;
+}
+
+h1, h2, h3 {
+  color: #2d3a4b;
+  margin-bottom: 16px;
+}
+
+p {
+  color: #4b5563;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #2563eb;
+  background: #e0e7ff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+  display: inline-block;
+  margin: 8px 0;
+}
+
+a:hover {
+  background: #2563eb;
+  color: #fff;
+  text-decoration: none;
+}
+
+.destaque {
+  background: #e0e7ff;
+  border-left: 4px solid #2563eb;
+  padding: 16px 18px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.missao {
+  background: #f9fafb;
+  border-radius: 10px;
+  padding: 18px 14px;
+  margin-bottom: 24px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.06);
+}
+
+.missao .icone {
+  font-size: 2.2rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.botao-voltar {
+  background: linear-gradient(90deg, #2563eb 60%, #60a5fa 100%);
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.10);
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  margin-top: 10px;
+}
+
+.botao-voltar:hover {
+  background: linear-gradient(90deg, #60a5fa 60%, #2563eb 100%);
+  transform: translateY(-2px) scale(1.04);
+}
+
+footer {
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.95rem;
+  margin-top: 32px;
+  padding-bottom: 12px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 18px 6px;
+    max-width: 98%;
+  }
+  body {
+    padding: 0;
+  }
+}

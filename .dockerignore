@@ -1,0 +1,14 @@
+website/assets/*
+*.log
+*.tmp
+# Ignorar configurações de editores
+.vscode/
+.idea/
+# Ignorar arquivos de backup
+*~
+*.bak
+# Ignorar arquivos temporários comuns
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
